@@ -1,0 +1,8 @@
+D:\VS\All_Home_Works\HomeWork-5-Array-Largest Element\bin\Debug\HomeWork-5-Array-Largest Element.exe.config
+D:\VS\All_Home_Works\HomeWork-5-Array-Largest Element\bin\Debug\HomeWork-5-Array-Largest Element.exe
+D:\VS\All_Home_Works\HomeWork-5-Array-Largest Element\bin\Debug\HomeWork-5-Array-Largest Element.pdb
+D:\VS\All_Home_Works\HomeWork-5-Array-Largest Element\obj\Debug\HomeWork-5-Array-Largest Element.csproj.AssemblyReference.cache
+D:\VS\All_Home_Works\HomeWork-5-Array-Largest Element\obj\Debug\HomeWork-5-Array-Largest Element.csproj.SuggestedBindingRedirects.cache
+D:\VS\All_Home_Works\HomeWork-5-Array-Largest Element\obj\Debug\HomeWork-5-Array-Largest Element.csproj.CoreCompileInputs.cache
+D:\VS\All_Home_Works\HomeWork-5-Array-Largest Element\obj\Debug\HomeWork-5-Array-Largest Element.exe
+D:\VS\All_Home_Works\HomeWork-5-Array-Largest Element\obj\Debug\HomeWork-5-Array-Largest Element.pdb
