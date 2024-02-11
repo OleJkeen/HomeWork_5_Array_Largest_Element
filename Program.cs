@@ -17,19 +17,18 @@ namespace HomeWork_5_Array_Largest_Element
             int minRandomNumber = 10;
             int maxRandomNumber = 99;
 
-            int[,] array = new int[numberOfLines, numberOfColumns];
+            int[,] arrayNumbers = new int[numberOfLines, numberOfColumns];
             Random random = new Random();
 
-            for (int i = 0; i < array.GetLength(0); i++)
+            for (int i = 0; i < arrayNumbers.GetLength(0); i++)
             {
-                for (int j = 0; j < array.GetLength(1); j++)
+                for (int j = 0; j < arrayNumbers.GetLength(1); j++)
                 {
-                    array[i, j] = random.Next(minRandomNumber, maxRandomNumber + 1);
-                    Console.Write(array[i, j] + " ");
-                    
-                    if (maxElement < array[i, j])
+                    arrayNumbers[i, j] = random.Next(minRandomNumber, maxRandomNumber + 1);
+                    Console.Write(arrayNumbers[i, j] + " ");
+                    if (maxElement < arrayNumbers[i, j])
                     {
-                        maxElement = array[i, j];
+                        maxElement = arrayNumbers[i, j];
                     }
                 }
                 Console.WriteLine();
@@ -38,22 +37,22 @@ namespace HomeWork_5_Array_Largest_Element
             Console.WriteLine($"\nМаксимальное число в массиве {maxElement}");
             Console.WriteLine("\n\n-----------------------------\n");
 
-            for (int i =0; i < array.GetLength(0); i++)
+            for (int i =0; i < arrayNumbers.GetLength(0); i++)
             {
-                for (int j = 0; j < array.GetLength(1); j++)
+                for (int j = 0; j < arrayNumbers.GetLength(1); j++)
                 {
-                    if (maxElement == array[i, j])
+                    if (maxElement == arrayNumbers[i, j])
                     {
-                        array[i, j] = 0;
+                        arrayNumbers[i, j] = 0;
                     }
                 }
             }
 
-            for (int i = 0; i < array.GetLength(0); i++)
+            for (int i = 0; i < arrayNumbers.GetLength(0); i++)
             {
-                for (int j = 0; j < array.GetLength(1); j++)
+                for (int j = 0; j < arrayNumbers.GetLength(1); j++)
                 {
-                    Console.Write(array[i, j] + " ");
+                    Console.Write(arrayNumbers[i, j] + " ");
                 }
                 Console.WriteLine();
             }
