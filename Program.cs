@@ -16,6 +16,7 @@ namespace HomeWork_5_Array_Largest_Element
             int maxElement = int.MinValue;
             int minRandomNumber = 10;
             int maxRandomNumber = 99;
+            int numberForMaxElement = 0;
 
             int[,] arrayNumbers = new int[numberOfLines, numberOfColumns];
             Random random = new Random();
@@ -43,7 +44,7 @@ namespace HomeWork_5_Array_Largest_Element
                 {
                     if (maxElement == arrayNumbers[i, j])
                     {
-                        arrayNumbers[i, j] = 0;
+                        arrayNumbers[i, j] = numberForMaxElement;
                     }
                 }
             }
